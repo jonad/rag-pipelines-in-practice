@@ -1,0 +1,26 @@
+# Superset of every package installed across notebooks 00-05
+# (see the first pip-install cell of each notebook)
+
+# Core numerics / retrieval
+numpy
+matplotlib
+faiss-cpu
+rank_bm25
+
+# LangChain stack
+langchain
+langchain-core
+langchain-community==0.2.16  # pinned by module 4
+langchain-text-splitters
+langchain-openai
+langchain-huggingface
+langchain-cohere
+langchain-ollama
+langchain-pinecone
+langchain-google-vertexai
+
+# Models / rerankers
+transformers
+sentence-transformers
+flashrank
+pylate
